@@ -8,7 +8,7 @@ export default function App() {
   const handleSubmit = (e: FormEvent) => {
     e.preventDefault();
     const trimmed = name.trim();
-    setGreeting(trimmed ? `Hello ${trimmed}!` : '');
+    setGreeting(trimmed ? `Welcome ${trimmed}!` : '');
   };
 
   return (
